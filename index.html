@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Finder</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<!-- Google Places API Key Here -->>&libraries=places"></script>
+
+</head>
+
+<body>
+    <h1>Weather Finder</h1>
+    <div class="container row">
+        <div class="col-md-5 col-md-offset-1" id="left-box">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1"><i class="fas fa-map-marked-alt"></i></span>
+                    <input type="text" class="form-control" id="city" placeholder="Enter city name">
+                </div>
+                </br>
+                <button id="findCityBtn">how does it feel sitting up there?</button>
+        </div>
+
+
+        <div class="col-md-5 col-md-offset-1" id="right-box">
+            <h3 id="tempRes"></h3>
+        </div>
+
+    </div>
+<br><br><br>
+    <div class="container" id="errorHandler">
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

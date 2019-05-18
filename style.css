@@ -1,0 +1,31 @@
+body {
+  background-color: #5cdb95;
+  font-family: 'Bungee', cursive;
+}
+h1 {
+  text-align: center;
+  padding: 50px;
+}
+
+#findCityBtn {
+  background-color: #05386b;
+  color: #edf5e1;
+  border: none;
+  padding: 10px;
+}
+#findCityBtn:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#left-box {
+  margin-top: 23px;
+}
+#right-box {
+  padding-left: 50px;
+}
+.result {
+  color: #05386b;
+  font-weight: bold;
+  font-size: 30px;
+}
